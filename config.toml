@@ -1,0 +1,4 @@
+baseURL = "https://wahgoods.com/"
+languageCode = "en-us"
+title = "Wahgoods Blog"
+enableRobotsTXT = true

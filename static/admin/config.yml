@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: CyberMalta8/wahgoods-blog
+  branch: main
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+site_url: "https://wahgoods.com"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }

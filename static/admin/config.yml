@@ -3,8 +3,7 @@ backend:
   repo: CyberMalta8/wahgoods-blog
   branch: main
   auth_type: implicit
-  base_url: https://wahgoods.com
-  client_id: Ov23ligAiwfrZq0xgC0c
+  client_id: YOUR_CLIENT_ID_HERE
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
